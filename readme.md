@@ -1,12 +1,19 @@
 Amazon-flex-funCaptcha-solver
 
 TIPS:
+
     1. find the websitePublicKey of funCaptcha
+    
         - it could find in `fc/gt2/public_key/{PublicKey}` request
+        
     2. get the `data` value
+    
     3. build the solver request
+    
         - get the solver [client key](https://dashboard.nextcaptcha.com)
+        
         - set the environment variables of `NEXTCAPTCHA_KEY` 
+        
     4. get and submit the token
 
 DISCLAIMERS:
