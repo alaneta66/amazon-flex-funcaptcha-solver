@@ -12,7 +12,19 @@ TIPS:
 
     - get the solver [client key](https://dashboard.nextcaptcha.com)
     
-    - set the environment variables of `NEXTCAPTCHA_KEY` 
+    - set the environment variables of `NEXTCAPTCHA_KEY`
+      
+    - ```json
+          {
+                "clientKey":"api key",
+                "task": {
+                    "type":"FunCaptchaTaskProxyless",
+                    "websiteURL":"https://example.com",
+                    "websitePublicKey":"1321AA23-3128-1B8A-9AA2-A25A21123A34",
+                    "data": "{\"blob\": \"lkjas13jasf23.azoiu21klzcasd12UaoSsf....\"}"
+                }
+            }
+      ```
     
 4. get and submit the token
 
